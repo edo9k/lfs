@@ -44,7 +44,10 @@ patch --version | head -n1
 echo Perl `perl -V:version`
 sed --version | head -n1
 tar --version | head -n1
+
+# this is in the package 'texinfo' for debian distros
 makeinfo --version | head -n1
+
 xz --version | head -n1
 
 echo 'int main(){}' > dummy.c && g++ -o dummy dummy.c
